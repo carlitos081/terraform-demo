@@ -189,6 +189,7 @@ modules.xml
 
 ##Terraform
 .terraform
+*.tfstate
 
 # End of https://www.gitignore.io/api/intellij+iml
 # ignore zip files
