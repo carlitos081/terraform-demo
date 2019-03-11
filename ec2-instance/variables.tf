@@ -51,3 +51,7 @@ variable "security_group_name" {
 variable "demo_user" {
   default = "cxs349"
 }
+
+variable "ec2_name" {
+  default = "ec2-demo"
+}

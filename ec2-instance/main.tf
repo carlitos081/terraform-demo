@@ -12,7 +12,7 @@ locals {
     provisionedby    = "Terraform"
   }
   security_group_name = "${terraform.workspace}-${var.security_group_name}"
-  ec2-name            = "${terraform.workspace}-demo-ec2"
+  ec2-name            = "${terraform.workspace}-${var.ec2_name}"
 }
 
 resource "aws_instance" "ec2" {

@@ -9,6 +9,5 @@ cidr-blocks = [
 instance-type= "t2.micro"
 key-pair-name= "cse-cnr"
 security-group-name= "ec2-demo"
-ec2_name= "ec2-demo-override"
 
 
