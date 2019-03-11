@@ -4,4 +4,4 @@
 3. Run `terraform plan` (check that the plan does destroy, create or update resources as you expect)
 4. Once you are happy with the plan run `terraform apply` (sit back, and go for a coffee)
 5. Once it has been completed without errors, check from AWS web interface if everything has been created as you expected
-6. Connect in SSH taking the pem file cse-cnr.pem from cloud-common project
+6. Connect in SSH using the pem file cse-cnr.pem from cloud-common project
